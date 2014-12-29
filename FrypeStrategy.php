@@ -77,13 +77,17 @@ class FrypeStrategy extends OpauthStrategy{
 						'language' => $results['language'],
 						'info' => array(
 							'uid' => $user['uid'],
-							'name' => $user['name'],
+							'name' => $user['name'].' '.$user['surname'],
 							'url' => $user['url'],
-							'surname' => $user['surname'],
-							'img' =>  $user['img'],
+							'first_name' => $user['name'],
+							'last_name' => $user['surname'],
+							'image' =>  $user['img'],
 							'imgi' =>  $user['imgi'],
 							'imgm' =>  $user['imgm'],
 							'imgl' =>  $user['imgl'],
+							'urls' => array(
+								'frype' => 'http://frype.com/'.$user['url'],
+							),
 						),
 						'raw' => $user
 					);
@@ -95,7 +99,6 @@ class FrypeStrategy extends OpauthStrategy{
 					if (!empty($user['age'])) $this->auth['info']['age'] = $user['age'];
 					if (!empty($user['adult'])) $this->auth['info']['adult'] = $user['adult'];
 					if (!empty($user['type'])) $this->auth['info']['type'] = $user['type'];
-					if (!empty($user['deleted'])) $this->auth['info']['deleted'] = $user['deleted'];
 					if (!empty($user['deleted'])) $this->auth['info']['deleted'] = $user['deleted'];
 					if (!empty($user['place'])) $this->auth['info']['place'] = $user['place'];
 
