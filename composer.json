@@ -1,0 +1,23 @@
+{
+	"name": "rixtellab/opauth-frype",
+	"description": "Frype (draugiem.lv) strategy for Opauth",
+	"keywords": ["authentication","auth","frype", "draugiem.lv"],
+	"homepage": "http://opauth.org",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Andris Šaudinis",
+			"email": "andris@rixtellab.con",
+			"homepage": "http://www.rixtellab.com"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"opauth/opauth": ">=0.2.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "."
+		}
+	}
+}
