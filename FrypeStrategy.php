@@ -60,7 +60,7 @@ class FrypeStrategy extends OpauthStrategy{
 				$params = array(
 					'action' => 'authorize',
 					'app' =>  $this->strategy['app_key'],
-					'code' =>  trim($_GET['dr_auth_code'].'d')
+					'code' =>  trim($_GET['dr_auth_code'])
 				);
 
 				$response = $this->serverGet($url, $params, null, $headers);
