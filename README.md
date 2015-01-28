@@ -42,7 +42,7 @@ Required parameters:
 
 License
 ---------
-Opauth-Facebook is MIT Licensed  
+Opauth-Frype is MIT Licensed  
 Copyright © 2014 Andris Šaudinis (http://www.rixtellab.com)
 
 [1]: https://github.com/rixtellab/opauth-frype
