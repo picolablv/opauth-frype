@@ -9,7 +9,7 @@ Getting started
 1. a. Install Opauth-Frype with git:
    ```bash
    cd path_to_opauth/Strategy
-   git clone https://github.com/rixtellab/opauth-frype.git Facebook
+   git clone https://github.com/rixtellab/opauth-frype.git
    ```
 1. b. Install Opauth-Frype with composer. Add to your composer.json:
 ```
