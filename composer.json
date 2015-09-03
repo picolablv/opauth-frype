@@ -1,5 +1,5 @@
 {
-	"name": "picolablv/opauth-frype",
+	"name": "rixtellab/opauth-frype",
 	"description": "Frype (draugiem.lv) strategy for Opauth",
 	"keywords": ["authentication","auth","frype", "draugiem.lv"],
 	"homepage": "http://opauth.org",
