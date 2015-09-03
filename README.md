@@ -9,14 +9,14 @@ Getting started
 1. a. Install Opauth-Frype with git:
    ```bash
    cd path_to_opauth/Strategy
-   git clone https://github.com/rixtellab/opauth-frype.git Frype
+   git clone https://github.com/picolablv/opauth-frype.git Frype
    ```
 1. b. Install Opauth-Frype with composer. Add to your composer.json:
 ```
 {
       "require" : {	 
         "opauth/opauth": ">=0.2.0",
-        "rixtellab/opauth-frype": "dev-master"
+        "picolablv/opauth-frype": "dev-master"
       }
     }
 ```     
@@ -45,4 +45,4 @@ License
 Opauth-Frype is MIT Licensed  
 Copyright © 2014 Andris Šaudinis (http://www.rixtellab.com)
 
-[1]: https://github.com/rixtellab/opauth-frype
+[1]: https://github.com/picolablv/opauth-frype
